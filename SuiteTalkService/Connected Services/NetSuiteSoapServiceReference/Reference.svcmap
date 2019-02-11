@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="68274f8b-c367-4170-b45d-db4b88ad683c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://webservices.netsuite.com/wsdl/v2018_2_0/netsuite.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="relationships.xsd" MetadataType="Schema" ID="fe73490e-cb87-42d4-b223-f13ad0456746" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/relationships.xsd" />
+    <MetadataFile FileName="common.xsd" MetadataType="Schema" ID="6be6d3e9-eb13-4965-b541-552143fbd33e" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/common.xsd" />
+    <MetadataFile FileName="employeeTypes.xsd" MetadataType="Schema" ID="0e47d8aa-b83f-4b26-b661-12a43a44f301" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/employeeTypes.xsd" />
+    <MetadataFile FileName="communication.xsd" MetadataType="Schema" ID="beb4c82a-671e-4920-819b-49a4346d82d4" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/general/v2018_2_0/communication.xsd" />
+    <MetadataFile FileName="relationshipTypes.xsd" MetadataType="Schema" ID="8500f6fc-545d-4de1-b858-74db985af873" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/relationshipTypes.xsd" />
+    <MetadataFile FileName="fileCabinet.xsd" MetadataType="Schema" ID="14e8999c-e8fb-4acc-9882-1c23218ed4dd" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/documents/v2018_2_0/fileCabinet.xsd" />
+    <MetadataFile FileName="general.xsd" MetadataType="Schema" ID="0175159f-7e4f-41b6-8668-600d27e60603" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/general.xsd" />
+    <MetadataFile FileName="customers.xsd" MetadataType="Schema" ID="188eb140-373a-4c47-b214-3726b3058057" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/customers.xsd" />
+    <MetadataFile FileName="employees.xsd" MetadataType="Schema" ID="9ae3da64-d39b-410e-a492-211083ee0fe5" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/employees.xsd" />
+    <MetadataFile FileName="financialTypes.xsd" MetadataType="Schema" ID="6449fcf9-1da0-4446-875f-a3418b081a03" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/financialTypes.xsd" />
+    <MetadataFile FileName="financial.xsd" MetadataType="Schema" ID="da9191e8-2d9d-4dc8-b541-f5779a788236" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/financial.xsd" />
+    <MetadataFile FileName="website.xsd" MetadataType="Schema" ID="f38f08fd-6dae-4883-a450-38db8ba29a36" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/website.xsd" />
+    <MetadataFile FileName="faults.xsd" MetadataType="Schema" ID="5944d8c7-5e86-416f-9340-fd9e6fd263d6" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/faults.xsd" />
+    <MetadataFile FileName="demandPlanningTypes.xsd" MetadataType="Schema" ID="0fda4ecb-7022-4891-af70-85ce21c77162" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/demandPlanningTypes.xsd" />
+    <MetadataFile FileName="supportTypes.xsd" MetadataType="Schema" ID="20a3e776-fc0a-4e29-bd6b-96b6a629c3cf" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/supportTypes.xsd" />
+    <MetadataFile FileName="bankTypes.xsd" MetadataType="Schema" ID="44d1c841-21a1-4cef-aea7-d9bc5b4f4880" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/bankTypes.xsd" />
+    <MetadataFile FileName="saleTypes.xsd" MetadataType="Schema" ID="fc9b8536-9bd7-43c9-abf9-015399ebd02c" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/saleTypes.xsd" />
+    <MetadataFile FileName="coreTypes.xsd" MetadataType="Schema" ID="9b5cb78e-6c9e-4346-87dc-007188ce1d80" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/coreTypes.xsd" />
+    <MetadataFile FileName="inventory.xsd" MetadataType="Schema" ID="8657ce01-2989-41ab-89dd-84c3d49e4f26" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/inventory.xsd" />
+    <MetadataFile FileName="accounting.xsd" MetadataType="Schema" ID="1662d289-1819-438a-a61d-389cafd399bc" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/accounting.xsd" />
+    <MetadataFile FileName="purchaseTypes.xsd" MetadataType="Schema" ID="84020ec6-c132-4100-b30b-1076d8e4ce9f" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/purchaseTypes.xsd" />
+    <MetadataFile FileName="faultTypes.xsd" MetadataType="Schema" ID="90defc0d-0b13-446c-9844-8cdfa9041486" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/faultTypes.xsd" />
+    <MetadataFile FileName="inventoryTypes.xsd" MetadataType="Schema" ID="bec95f1a-8daf-4e2c-abd2-7eca1457055c" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/inventoryTypes.xsd" />
+    <MetadataFile FileName="customizationTypes.xsd" MetadataType="Schema" ID="f76a1733-885f-4620-b506-9e3c9d8b115a" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/setup/v2018_2_0/customizationTypes.xsd" />
+    <MetadataFile FileName="bank.xsd" MetadataType="Schema" ID="9779283e-c0c9-4af0-aea9-c9b1f46b0168" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/bank.xsd" />
+    <MetadataFile FileName="core.xsd" MetadataType="Schema" ID="e33c08ec-a80d-431f-ab06-a49c837d7206" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/core.xsd" />
+    <MetadataFile FileName="netsuite.wsdl" MetadataType="Wsdl" ID="89c3fbe0-265c-49d5-9f99-32e8b8bb6747" SourceId="1" SourceUrl="https://webservices.netsuite.com/wsdl/v2018_2_0/netsuite.wsdl" />
+    <MetadataFile FileName="scheduling.xsd" MetadataType="Schema" ID="5ff8d7ae-a7db-4986-99b7-c229ad7b7012" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/activities/v2018_2_0/scheduling.xsd" />
+    <MetadataFile FileName="customization.xsd" MetadataType="Schema" ID="92656b0b-394a-447a-ae39-6e5695203b3d" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/setup/v2018_2_0/customization.xsd" />
+    <MetadataFile FileName="employees1.xsd" MetadataType="Schema" ID="8cff6bd3-9175-48f1-9e4c-705a5eca76d2" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/employees.xsd" />
+    <MetadataFile FileName="messages.xsd" MetadataType="Schema" ID="41b8be1b-a3ba-4027-8986-0bd4356d9597" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/messages.xsd" />
+    <MetadataFile FileName="accountingTypes.xsd" MetadataType="Schema" ID="9699cd0e-a19e-43ab-8c14-4e4be8294335" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/accountingTypes.xsd" />
+    <MetadataFile FileName="demandPlanning.xsd" MetadataType="Schema" ID="4d5a746e-61d7-48bb-a5f5-fb541ccb1ba5" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/demandPlanning.xsd" />
+    <MetadataFile FileName="support.xsd" MetadataType="Schema" ID="4033d902-6241-46fc-9ded-c76cad8b9dca" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/support.xsd" />
+    <MetadataFile FileName="websiteTypes.xsd" MetadataType="Schema" ID="04af0d9b-283c-4005-acee-f03d0500ebb5" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/websiteTypes.xsd" />
+    <MetadataFile FileName="sales.xsd" MetadataType="Schema" ID="86a284aa-8294-483e-9c71-3b3de39d41ae" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/sales.xsd" />
+    <MetadataFile FileName="purchases.xsd" MetadataType="Schema" ID="bde0862a-2434-4238-8855-31a6eebf3da5" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/purchases.xsd" />
+    <MetadataFile FileName="commonTypes.xsd" MetadataType="Schema" ID="9c829fbb-cbe1-4644-a0ca-74b096f7e441" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/platform/v2018_2_0/commonTypes.xsd" />
+    <MetadataFile FileName="supplyChainTypes.xsd" MetadataType="Schema" ID="656fbb5f-47c1-494b-93ae-c5ad938ee1b6" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/supplyChainTypes.xsd" />
+    <MetadataFile FileName="communicationTypes.xsd" MetadataType="Schema" ID="6853bd75-411c-4822-86c7-7f73b9b02363" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/general/v2018_2_0/communicationTypes.xsd" />
+    <MetadataFile FileName="fileCabinetTypes.xsd" MetadataType="Schema" ID="72dfc1c4-b3a5-46b6-814a-c57a347ef833" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/documents/v2018_2_0/fileCabinetTypes.xsd" />
+    <MetadataFile FileName="employeeTypes1.xsd" MetadataType="Schema" ID="3ed74527-0c04-4a5d-b586-bf3bc344a9ef" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/employeeTypes.xsd" />
+    <MetadataFile FileName="schedulingTypes.xsd" MetadataType="Schema" ID="e59fd7c2-56bb-4b10-963c-384748798e60" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/activities/v2018_2_0/schedulingTypes.xsd" />
+    <MetadataFile FileName="marketing.xsd" MetadataType="Schema" ID="da4e59f9-5cd4-4296-a0e0-3bef12f5cf0f" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/marketing.xsd" />
+    <MetadataFile FileName="marketingTypes.xsd" MetadataType="Schema" ID="e96d455c-0847-487a-8308-f44431badd22" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/marketingTypes.xsd" />
+    <MetadataFile FileName="supplyChain.xsd" MetadataType="Schema" ID="a7396853-23db-4961-8971-7c5f94bb3e0c" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/lists/v2018_2_0/supplyChain.xsd" />
+    <MetadataFile FileName="customerTypes.xsd" MetadataType="Schema" ID="e1abc58c-8acb-4c91-9d0f-e5185ff6ad74" SourceId="1" SourceUrl="https://webservices.netsuite.com/xsd/transactions/v2018_2_0/customerTypes.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
